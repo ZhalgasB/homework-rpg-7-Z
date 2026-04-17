@@ -23,7 +23,7 @@ public class DungeonBoss implements GameObserver {
 
     private final EventPublisher publisher;
 
-    public DungeonBoss(int hp,int maxHp, int attPoer, int defence, EventPublisher publisher) {
+    public DungeonBoss(int hp, int maxHp, int attPoer, EventPublisher publisher,int defence) {
         this.hp = hp;
         this.maxHp = maxHp;
         this.attPoer = attPoer;
